@@ -4,22 +4,22 @@ Theme : Mental Wellness
 
 ### Introduction
 
-Music Heals the Soul is a Smart Application that predicts songs froom Spotify of a particular Genre based on the real time emotions of the user.
+Music Heals the Soul is a Smart Application that predicts songs from Spotify of a particular genre based on the real time emotions of the user.
 
 ### What problems does it solve?
 
-Often, people are depressed about something and dont find it easy to communicate their problems with others. This may lead to severe depression and suicidal thoughts.
+We often find it hard to discuss our feelings with others. And so we find solace in music.
 
-Music is often a key under estimated factor that can help calm their mind and cheer them up.
+Music is often underestimated for its ability make us feel better.
 
 In this project, we have created a live emotion detection algorithm that can predict the emotions of the person in real time and recommend songs to cheer them up!
 
 ### Inspiration
 
-The recent events with respect to the pandemic that has been raging across the world has taken a toll on the mental health of all of us. And one of the few things that makes us feel good, and disconnects us from reality is *music*. Music has kept most of us sane during these testing times. 
-One of the greatest qualities of music is the range of emotion in the songs. Each song has been written by the songwriters, who pen their emotions into beautiful songs, and this application hopes to help people relax and listen to songs based on their emotion and mental state at that time.
+The coronavirus pandemic has taken a serious toll on our mental health. And one of the few things that makes us feel good is music.It's something that disconnects us from the grim reality. Music has kept most of us sane during these testing times. One of the greatest qualities of music is the range of emotion in the songs. Each song has been written by the songwriters, who pen their emotions into beautiful songs, and this application hopes to help people relax and listen to songs based on their emotion and mental state at that time.
 
-### Technologies 
+### Technologies
+
 - Casscade Classifiers and Webcam input from OpenCV
 - A Lightweight Face Recognition and Facial Attribute Analysis Framework Deepface for Emotion Recognition
 - Spotify API to fetch songs and playlists base d on emotions
@@ -30,9 +30,7 @@ One of the greatest qualities of music is the range of emotion in the songs. Eac
 ### Video Demo
 
 ### Team Members
+
 1. Vedanth Baliga
 2. Aaditya Goel
-3. Prateek Rao 
-
-
-
+3. Prateek Rao

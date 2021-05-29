@@ -21,26 +21,27 @@ pred = st.beta_container()
 
 with header:
     st.title('Emotion Detection and Song Recommendation')
-    st.text('Aim : To detect the emotion of the person and predict a song')
+    st.markdown('**Aim : To detect the emotion of the person and predict a song**')
 
 with inp:
-    st.title("Taking the face of the user as input")
+    st.title("Image Capture")
+    st.markdown("**Capturing an image of your face**")
     faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
     test.take_input()
 
 with pred:
-    st.title("Prediction")
+    st.title("Let's see what songs you should listen to !!")
     img = cv2.imread('photo.jpg')
 
     plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
 
     predictions = DeepFace.analyze(img)
 
-    st.text("Your emotion is {}".format(predictions['dominant_emotion']))  
+    #st.text("Your emotion is {}".format(predictions['dominant_emotion']))  
 
     if(predictions['dominant_emotion'] != 'happy'):
 
-
+        st.markdown("**You don't look too cheerful....Here are some songs to lift your mood up!!**")
         playlist_id = '37i9dQZF1DX9XIFQuFvzM4'
 
         def get_track_ids(playlist_id):
