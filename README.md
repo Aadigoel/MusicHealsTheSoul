@@ -1,5 +1,6 @@
 ## Music Heals the Soul - HackOn Hackathon 2021
 
+<img src = "background.png">
 Theme : Mental Wellness
 
 ### Introduction
@@ -24,8 +25,6 @@ The coronavirus pandemic has taken a serious toll on our mental health. And one 
 - A Lightweight Face Recognition and Facial Attribute Analysis Framework Deepface for Emotion Recognition
 - Spotify API to fetch songs and playlists base d on emotions
 - App deployed using Streamlit Python Library
-
-### ScreenShots of the Application
 
 ### Video Demo
 

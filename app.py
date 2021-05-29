@@ -20,6 +20,7 @@ inp = st.beta_container()
 pred = st.beta_container()
 
 with header:
+    st.image('background.png')
     st.title('Emotion Detection and Song Recommendation')
     st.markdown('**Aim : To detect the emotion of the person and predict a song**')
 
