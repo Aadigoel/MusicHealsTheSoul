@@ -16,6 +16,9 @@ In this project, we have created a live emotion detection algorithm that can pre
 
 ### Inspiration
 
+The recent events with respect to the pandemic that has been raging across the world has taken a toll on the mental health of all of us. And one of the few things that makes us feel good, and disconnects us from reality is *music*. Music has kept most of us sane during these testing times. 
+One of the greatest qualities of music is the range of emotion in the songs. Each song has been written by the songwriters, who pen their emotions into beautiful songs, and this application hopes to help people relax and listen to songs based on their emotion and mental state at that time.
+
 ### Technologies 
 - Casscade Classifiers and Webcam input from OpenCV
 - A Lightweight Face Recognition and Facial Attribute Analysis Framework Deepface for Emotion Recognition
