@@ -26,10 +26,7 @@ with header:
 with inp:
     st.title("Taking the face of the user as input")
     faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-    # page = st.sidebar.selectbox("Input or Predict", ("Input", "Predict"))
-
-    # if page == "Input":
-    #     test.take_input()
+    test.take_input()
 
 with pred:
     st.title("Prediction")
