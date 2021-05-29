@@ -23,7 +23,7 @@ The coronavirus pandemic has taken a serious toll on our mental health. And one 
 
 - Casscade Classifiers and Webcam input from OpenCV
 - A Lightweight Face Recognition and Facial Attribute Analysis Framework Deepface for Emotion Recognition
-- Spotify API to fetch songs and playlists base d on emotions
+- Spotify API to fetch songs and playlists based on emotions
 - App deployed using Streamlit Python Library
 
 ### How DeepFace Work?
